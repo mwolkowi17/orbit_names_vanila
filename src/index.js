@@ -29,7 +29,7 @@ scene.add(light3.target);
 scene.add(light4);
 scene.add(light4.target);
 
-camera.position.z = 9;
+camera.position.z = 12;
 camera.position.y = 1.5;
 
 //gltfLoader2.position.x=2;
