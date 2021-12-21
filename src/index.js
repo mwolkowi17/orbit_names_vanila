@@ -2,7 +2,8 @@ import { GLTFLoader } from '../node_modules/three/examples/jsm/loaders/GLTFLoade
 import * as THREE from 'three';
 import {OrbitControls} from '../node_modules/three/examples/jsm/controls/OrbitControls';
 import { light2, light3, light4 } from './direct_light.js';
-import {gltfLoader2} from './loader'
+import {gltfLoader2} from './loader';
+import { gltfLoader3 } from './loader2';
  
 
 //creating a scene

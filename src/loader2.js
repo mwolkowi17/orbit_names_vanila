@@ -3,9 +3,9 @@ import * as THREE from 'three';
 import { scene } from './index.js';
 
 
-export const gltfLoader2 = new GLTFLoader()
+export const gltfLoader3 = new GLTFLoader()
     
-    gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
+    gltfLoader3.load('./orbit_for_fiber2_3.glb', (gltf) => {
       const root = gltf.scene;
       const anim = gltf.animations;
       root.position.x=10;
