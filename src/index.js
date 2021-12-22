@@ -36,7 +36,7 @@ camera.position.y = 1.5;
 //gltfLoader2.position.x=2;
 controls.update();
 controls.autoRotate = false;
-renderer.domElement.addEventListener('dblclick', onClick, false);
+renderer.domElement.addEventListener('click', onClick, false);
 
 
 //const clock = new THREE.Clock();
@@ -65,6 +65,7 @@ function onClick(event) {
   if (intersects.length > 0) {
 
     console.log('Intersection:', intersects[1]);
+ 
     //const dispalyDetails = document.getElementsByClassName('display')[0];
     //dispalyDetails.style.visibility='visible'
     if(intersects[1]!=null){
