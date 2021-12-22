@@ -36,6 +36,8 @@ camera.position.y = 1.5;
 //gltfLoader2.position.x=2;
 controls.update();
 controls.autoRotate = false;
+renderer.domElement.addEventListener('dblclick', onClick, false);
+
 
 //const clock = new THREE.Clock();
 
@@ -48,7 +50,30 @@ const animate = function () {
   
 };
 
+function onClick(event) {
 
+  event.preventDefault();
+
+  mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+  mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+
+  raycaster.setFromCamera(mouse, camera);
+
+  const intersects = raycaster.intersectObjects(scene.children, true);
+  const dispalyDetails = document.getElementsByClassName('display')[0]
+
+  if (intersects.length > 0) {
+
+    console.log('Intersection:', intersects[1]);
+    //const dispalyDetails = document.getElementsByClassName('display')[0];
+    //dispalyDetails.style.visibility='visible'
+    if(intersects[1]!=null){
+      console.log('trafiony');
+    }
+
+  }
+
+}
 
 
 

@@ -5,7 +5,7 @@ import { scene } from './index.js';
 
 export const gltfLoader3 = new GLTFLoader()
     
-    gltfLoader3.load('./orbit_for_fiber2_3.glb', (gltf) => {
+    gltfLoader3.load('./orbit_for_fiber2_text1.glb', (gltf) => {
       const root = gltf.scene;
       const anim = gltf.animations;
       root.position.x=10;
@@ -13,5 +13,6 @@ export const gltfLoader3 = new GLTFLoader()
       root.position.y=6;
       root.rotation.x=Math.PI/10
       scene.add(root); 
+      
     })
 
