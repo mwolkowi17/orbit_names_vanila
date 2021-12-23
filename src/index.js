@@ -64,11 +64,11 @@ function onClick(event) {
 
   if (intersects.length > 0) {
 
-    console.log('Intersection:', intersects[1]);
+    console.log('Intersection:', intersects[2]);
  
     //const dispalyDetails = document.getElementsByClassName('display')[0];
     //dispalyDetails.style.visibility='visible'
-    if(intersects[1]!=null){
+    if(intersects[2]!=null){
       console.log('trafiony');
     }
 
