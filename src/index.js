@@ -4,6 +4,7 @@ import {OrbitControls} from '../node_modules/three/examples/jsm/controls/OrbitCo
 import { light2, light3, light4 } from './direct_light.js';
 import {gltfLoader2} from './loader';
 import { gltfLoader3 } from './loader2';
+import { gltfLoader4 } from './loader3';
  
 
 //creating a scene
@@ -69,7 +70,7 @@ function onClick(event) {
     //const dispalyDetails = document.getElementsByClassName('display')[0];
     //dispalyDetails.style.visibility='visible'
     if(intersects[3]!=null){
-      console.log('trafiony');
+      console.log('trafiony nr1');
     }
 
   }
