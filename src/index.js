@@ -60,15 +60,15 @@ function onClick(event) {
   raycaster.setFromCamera(mouse, camera);
 
   const intersects = raycaster.intersectObjects(scene.children, true);
-  const dispalyDetails = document.getElementsByClassName('display')[0]
+  //const dispalyDetails = document.getElementsByClassName('display')[0]
 
   if (intersects.length > 0) {
 
-    console.log('Intersection:', intersects[2]);
+    console.log('Intersection:', intersects[3]);
  
     //const dispalyDetails = document.getElementsByClassName('display')[0];
     //dispalyDetails.style.visibility='visible'
-    if(intersects[2]!=null){
+    if(intersects[3]!=null){
       console.log('trafiony');
     }
 
