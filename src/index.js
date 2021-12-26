@@ -1,7 +1,7 @@
 import { GLTFLoader } from '../node_modules/three/examples/jsm/loaders/GLTFLoader';
 import * as THREE from 'three';
 import {OrbitControls} from '../node_modules/three/examples/jsm/controls/OrbitControls';
-import { light2, light3, light4 } from './direct_light.js';
+import { light2, light3, light4,light5 } from './direct_light.js';
 import {gltfLoader2} from './loader';
 import { gltfLoader3 } from './loader2';
 import { gltfLoader4 } from './loader3';
@@ -33,6 +33,7 @@ scene.add(light3);
 scene.add(light3.target);
 scene.add(light4);
 scene.add(light4.target);
+scene.add(light5);
 
 camera.position.z = 12;
 camera.position.y = 1.5;
@@ -78,10 +79,15 @@ function onClick(event) {
 
     console.log(intersects[0].object)
     //console.log(objectSelected)
-   if(intersects[0].object===scene.children[6].children[6]){
+   if(intersects[0].object===scene.children[7].children[6]){
      console.log('hello')
      display.style.visibility='visible'
    }
+
+   if(intersects[0].object===scene.children[8].children[6]){
+    console.log('hello2')
+    display.style.visibility='visible'
+  }
   }
 
 }

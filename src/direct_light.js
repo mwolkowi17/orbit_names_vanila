@@ -16,3 +16,6 @@ export const light4 = new THREE.DirectionalLight(color, intensity)
 light4.position.set(0,5,-10);
 light4.target.position.set(5,0,0);
 
+
+export const light5 = new THREE.AmbientLight(color, intensity);
+
