@@ -5,6 +5,7 @@ import { light2, light3, light4 } from './direct_light.js';
 import {gltfLoader2} from './loader';
 import { gltfLoader3 } from './loader2';
 import { gltfLoader4 } from './loader3';
+import { ObjectSpaceNormalMap } from 'three';
  
 
 //creating a scene
@@ -65,18 +66,23 @@ function onClick(event) {
 
   if (intersects.length > 0) {
 
-    console.log('Intersection:', intersects[3]);
- 
+    console.log('Intersection:', intersects[0]);
+    //objectSelected = intersects[0].object;
     //const dispalyDetails = document.getElementsByClassName('display')[0];
     //dispalyDetails.style.visibility='visible'
-    if(intersects[3]!=null){
+    /*if(intersects[4]!=null){
       console.log('trafiony nr1');
-    }
+    }*/
 
+    console.log(intersects[0].object)
+    //console.log(objectSelected)
+   if(intersects[0].object===scene.children[6].children[6]){
+     console.log('hello')
+   }
   }
 
 }
 
-
+console.log(scene.children);
 
 animate();
