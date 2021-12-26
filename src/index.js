@@ -6,6 +6,7 @@ import {gltfLoader2} from './loader';
 import { gltfLoader3 } from './loader2';
 import { gltfLoader4 } from './loader3';
 import { ObjectSpaceNormalMap } from 'three';
+import { display } from './display';
  
 
 //creating a scene
@@ -22,6 +23,7 @@ const controls = new OrbitControls(camera, renderer.domElement);
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.shadowMap.enabled = true;
 document.body.appendChild(renderer.domElement);
+document.body.appendChild(display);
 
 scene.background = new THREE.Color(0xFFFFFF);
 
@@ -78,6 +80,7 @@ function onClick(event) {
     //console.log(objectSelected)
    if(intersects[0].object===scene.children[6].children[6]){
      console.log('hello')
+     display.style.visibility='visible'
    }
   }
 
