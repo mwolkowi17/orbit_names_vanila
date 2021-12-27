@@ -79,7 +79,7 @@ function onClick(event) {
 
     console.log(intersects[0].object)
     //console.log(objectSelected)
-   if(intersects[0].object===scene.children[7].children[6]){
+   if(intersects[0].object===scene.children[9].children[6]){
      console.log('hello')
      display.style.visibility='visible';
      
@@ -106,7 +106,7 @@ function mouseOn(event){
   //const dispalyDetails = document.getElementsByClassName('display')[0]
 
   if (intersects.length > 0) {
-    if(intersects[0].object===scene.children[7].children[6]){
+    if(intersects[0].object===scene.children[9].children[6]){
       document.body.style.cursor='pointer';
     }
     else if(intersects[0].object===scene.children[8].children[6]){
@@ -116,5 +116,9 @@ function mouseOn(event){
       document.body.style.cursor='default';
     }
   }
+  if (intersects.length === 0){
+    document.body.style.cursor='default';
+  }
+  console.log(scene.children)
 }
 animate();

@@ -12,7 +12,7 @@ export const gltfLoader4 = new GLTFLoader()
       root.position.z=-4;
       root.position.y=6;
       root.rotation.x=Math.PI/10
-      scene.add(root); 
+      //scene.add(root); 
       
     })
 
