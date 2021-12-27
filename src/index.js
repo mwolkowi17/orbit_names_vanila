@@ -42,7 +42,7 @@ camera.position.y = 1.5;
 controls.update();
 controls.autoRotate = false;
 renderer.domElement.addEventListener('click', onClick, false);
-
+renderer.domElement.addEventListener('mouseover', mouseOn, false);
 
 //const clock = new THREE.Clock();
 
@@ -56,7 +56,7 @@ const animate = function () {
 };
 
 function onClick(event) {
-
+ 
   event.preventDefault();
 
   mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
@@ -81,7 +81,8 @@ function onClick(event) {
     //console.log(objectSelected)
    if(intersects[0].object===scene.children[7].children[6]){
      console.log('hello')
-     display.style.visibility='visible'
+     display.style.visibility='visible';
+     
    }
 
    if(intersects[0].object===scene.children[8].children[6]){
@@ -92,6 +93,22 @@ function onClick(event) {
 
 }
 
-console.log(scene.children);
+function mouseOn(event){
+  console.log('mouse');
+  event.preventDefault();
 
+  mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+  mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+
+  raycaster.setFromCamera(mouse, camera);
+
+  const intersects = raycaster.intersectObjects(scene.children, true);
+  //const dispalyDetails = document.getElementsByClassName('display')[0]
+
+  if (intersects.length > 0) {
+    if(intersects[0].object===scene.children[7].children[6]){
+      document.body.style.cursor='grab';
+    }
+  }
+}
 animate();
