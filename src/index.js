@@ -42,7 +42,7 @@ camera.position.y = 1.5;
 controls.update();
 controls.autoRotate = false;
 renderer.domElement.addEventListener('click', onClick, false);
-renderer.domElement.addEventListener('mouseover', mouseOn, false);
+renderer.domElement.addEventListener('mousemove', mouseOn, false);
 
 //const clock = new THREE.Clock();
 
@@ -107,7 +107,13 @@ function mouseOn(event){
 
   if (intersects.length > 0) {
     if(intersects[0].object===scene.children[7].children[6]){
-      document.body.style.cursor='grab';
+      document.body.style.cursor='pointer';
+    }
+    else if(intersects[0].object===scene.children[8].children[6]){
+      document.body.style.cursor='pointer';
+    }
+    else{
+      document.body.style.cursor='default';
     }
   }
 }
