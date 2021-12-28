@@ -12,7 +12,7 @@ const gltfLoader4 = new GLTFLoader()
       root.position.x=10;
       root.position.z=-4;
       root.position.y=6;
-      root.rotation.x=Math.PI/10
+      root.rotation.x=Math.PI/9
       scene.add(root); 
      gltfLoader3.load('./orbit_for_fiber2_text1.glb', (gltf) => {
         const root = gltf.scene;
@@ -20,7 +20,7 @@ const gltfLoader4 = new GLTFLoader()
         root.position.x=10;
         root.position.z=-4;
         root.position.y=6;
-        root.rotation.x=Math.PI/10
+        root.rotation.x=Math.PI/9
         scene.add(root); 
         
       })
@@ -30,7 +30,7 @@ const gltfLoader4 = new GLTFLoader()
         root.position.x=10;
         root.position.z=-4;
         root.position.y=6;
-        root.rotation.x=Math.PI/10
+        root.rotation.x=Math.PI/9
         scene.add(root); 
         
       })
