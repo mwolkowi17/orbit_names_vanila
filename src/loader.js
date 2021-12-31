@@ -23,7 +23,7 @@ gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
   const anim = gltf.animations;
   root.position.x = 10;
   root.position.z = -4;
-  root.position.y = 6;
+  root.position.y = 5;
   root.rotation.x = Math.PI / 9
   scene.add(root);
   gltfLoader3.load('./orbit_for_fiber2_text1.glb', (gltf) => {
@@ -31,7 +31,7 @@ gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
     const anim = gltf.animations;
     root.position.x = 10;
     root.position.z = -4;
-    root.position.y = 6;
+    root.position.y = 5;
     root.rotation.x = Math.PI / 9
     scene.add(root);
 
@@ -41,7 +41,7 @@ gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
     const anim = gltf.animations;
     root.position.x = 10;
     root.position.z = -4;
-    root.position.y = 6;
+    root.position.y = 5;
     root.rotation.x = Math.PI / 9
     scene.add(root);
 
@@ -51,7 +51,7 @@ gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
     const anim = gltf.animations;
     root.position.x = 10;
     root.position.z = -4;
-    root.position.y = 6;
+    root.position.y = 5;
     root.rotation.x = Math.PI / 9
     scene.add(root);
 
@@ -61,7 +61,7 @@ gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
     const anim = gltf.animations;
     root.position.x = 10;
     root.position.z = -4;
-    root.position.y = 6;
+    root.position.y = 5;
     root.rotation.x = Math.PI / 9
     scene.add(root);
 
@@ -71,7 +71,7 @@ gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
     const anim = gltf.animations;
     root.position.x = 10;
     root.position.z = -4;
-    root.position.y = 6;
+    root.position.y = 5;
     root.rotation.x = Math.PI / 9
     scene.add(root);
 
@@ -81,7 +81,7 @@ gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
     const anim = gltf.animations;
     root.position.x = 10;
     root.position.z = -4;
-    root.position.y = 6;
+    root.position.y = 5;
     root.rotation.x = Math.PI / 9
     scene.add(root);
 
@@ -91,7 +91,7 @@ gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
     const anim = gltf.animations;
     root.position.x = 10;
     root.position.z = -4;
-    root.position.y = 6;
+    root.position.y = 5;
     root.rotation.x = Math.PI / 9
     scene.add(root);
 
@@ -101,7 +101,7 @@ gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
     const anim = gltf.animations;
     root.position.x = 10;
     root.position.z = -4;
-    root.position.y = 6;
+    root.position.y = 5;
     root.rotation.x = Math.PI / 9
     scene.add(root);
 
@@ -112,7 +112,7 @@ gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
     const anim = gltf.animations;
     root.position.x = 10;
     root.position.z = -4;
-    root.position.y = 6;
+    root.position.y = 5;
     root.rotation.x = Math.PI / 9
     scene.add(root);
 
@@ -122,7 +122,7 @@ gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
     const anim = gltf.animations;
     root.position.x = 10;
     root.position.z = -4;
-    root.position.y = 6;
+    root.position.y = 5;
     root.rotation.x = Math.PI / 9
     scene.add(root);
 
@@ -132,7 +132,7 @@ gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
     const anim = gltf.animations;
     root.position.x = 10;
     root.position.z = -4;
-    root.position.y = 6;
+    root.position.y = 5;
     root.rotation.x = Math.PI / 9
     scene.add(root);
 
@@ -142,7 +142,7 @@ gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
     const anim = gltf.animations;
     root.position.x = 10;
     root.position.z = -4;
-    root.position.y = 6;
+    root.position.y = 5;
     root.rotation.x = Math.PI / 9
     scene.add(root);
 
@@ -152,7 +152,7 @@ gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
     const anim = gltf.animations;
     root.position.x = 10;
     root.position.z = -4;
-    root.position.y = 6;
+    root.position.y = 5;
     root.rotation.x = Math.PI / 9
     scene.add(root);
 
@@ -162,7 +162,7 @@ gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
     const anim = gltf.animations;
     root.position.x = 10;
     root.position.z = -4;
-    root.position.y = 6;
+    root.position.y = 5;
     root.rotation.x = Math.PI / 9
     scene.add(root);
 

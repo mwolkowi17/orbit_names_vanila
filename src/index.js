@@ -12,7 +12,7 @@ import { display } from './display';
 //creating a scene
 export const scene = new THREE.Scene();
 //creating a camera
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+const camera = new THREE.PerspectiveCamera(35, window.innerWidth / window.innerHeight, 0.1, 1000);
 //creating a raycaster to make object interactive
 const raycaster = new THREE.Raycaster();
 const mouse = new THREE.Vector2()
@@ -35,7 +35,7 @@ scene.add(light4);
 scene.add(light4.target);
 scene.add(light5);
 
-camera.position.z = 12;
+camera.position.z = 25;
 camera.position.y = 1.5;
 
 //gltfLoader2.position.x=2;
