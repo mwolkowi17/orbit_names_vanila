@@ -89,6 +89,67 @@ function onClick(event) {
     console.log('hello2')
     display.style.visibility='visible'
   }
+  if(intersects[0].object===scene.children[10].children[6]){
+    console.log('hello')
+    display.style.visibility='visible';
+    
+  }
+  if(intersects[0].object===scene.children[11].children[6]){
+    console.log('hello')
+    display.style.visibility='visible';
+    
+  }
+  if(intersects[0].object===scene.children[12].children[6]){
+    console.log('hello')
+    display.style.visibility='visible';
+    
+  }
+  if(intersects[0].object===scene.children[13].children[6]){
+    console.log('hello')
+    display.style.visibility='visible';
+    
+  }
+  if(intersects[0].object===scene.children[14].children[6]){
+    console.log('hello')
+    display.style.visibility='visible';
+    
+  }
+  if(intersects[0].object===scene.children[15].children[6]){
+    console.log('hello')
+    display.style.visibility='visible';
+    
+  }
+  if(intersects[0].object===scene.children[16].children[5]){
+    console.log('hello')
+    display.style.visibility='visible';
+    
+  }
+  if(intersects[0].object===scene.children[17].children[6]){
+    console.log('hello1')
+    display.style.visibility='visible';
+    
+  }
+  if(intersects[0].object===scene.children[18].children[6]){
+    console.log('hello')
+    display.style.visibility='visible';
+    
+  }
+  if(intersects[0].object===scene.children[19].children[6]){
+    console.log('hello')
+    display.style.visibility='visible';
+    
+  }
+  if(intersects[0].object===scene.children[20].children[6]){
+    console.log('hello')
+    display.style.visibility='visible';
+    
+  }
+  if(intersects[0].object===scene.children[21].children[6]){
+    console.log('hello')
+    display.style.visibility='visible';
+    
+  }
+  
   }
 
 }
@@ -112,6 +173,44 @@ function mouseOn(event){
     else if(intersects[0].object===scene.children[8].children[6]){
       document.body.style.cursor='pointer';
     }
+    else if(intersects[0].object===scene.children[10].children[6]){
+      document.body.style.cursor='pointer';
+    }
+    else if(intersects[0].object===scene.children[11].children[6]){
+      document.body.style.cursor='pointer';
+    }
+    else if(intersects[0].object===scene.children[12].children[6]){
+      document.body.style.cursor='pointer';
+    }
+    else if(intersects[0].object===scene.children[13].children[6]){
+      document.body.style.cursor='pointer';
+    }
+    else if(intersects[0].object===scene.children[14].children[6]){
+      document.body.style.cursor='pointer';
+    }
+    else if(intersects[0].object===scene.children[15].children[6]){
+      document.body.style.cursor='pointer';
+    }
+    else if(intersects[0].object===scene.children[16].children[5]){
+      document.body.style.cursor='pointer';
+    }
+    else if(intersects[0].object===scene.children[17].children[6]){
+      document.body.style.cursor='pointer';
+    }
+    else if(intersects[0].object===scene.children[18].children[6]){
+      document.body.style.cursor='pointer';
+    }
+    else if(intersects[0].object===scene.children[19].children[6]){
+      document.body.style.cursor='pointer';
+    }
+    else if(intersects[0].object===scene.children[20].children[6]){
+      document.body.style.cursor='pointer';
+    }
+    else if(intersects[0].object===scene.children[21].children[6]){
+      document.body.style.cursor='pointer';
+    }
+    
+    
     else{
       document.body.style.cursor='default';
     }
