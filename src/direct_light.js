@@ -1,7 +1,8 @@
 import * as THREE from 'three';
 
 const color = 0xFFFFFF;
-const intensity = 0.8;
+const intensity = 0.5;
+const intensity2 = 0.7;
 export const light2 = new THREE.DirectionalLight(color, intensity);
 light2.position.set(0, 10, 10);
 light2.target.position.set(-5, 0, 0);
@@ -17,5 +18,5 @@ light4.position.set(0,5,-10);
 light4.target.position.set(5,0,0);
 
 
-export const light5 = new THREE.AmbientLight(color, intensity);
+export const light5 = new THREE.AmbientLight(color, intensity2);
 
