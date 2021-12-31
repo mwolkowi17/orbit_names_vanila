@@ -1,7 +1,8 @@
 export const display = document.createElement('div');
 display.className = 'display';
 display.id = 'display';
-display.style.backgroundColor = 'rgba(0,177,255,' + (Math.random() * 0.5 + 0.25) + ')';
+//display.style.backgroundColor = 'rgba(0,177,255,' + (Math.random() * 0.5 + 0.25) + ')';
+display.style.backgroundColor = 'rgba(0,62,112,0.7)';
 display.textContent = "Valve model no.7";
 display.style.height = "520px";
 display.style.width = "400px";
