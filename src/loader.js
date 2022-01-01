@@ -18,6 +18,13 @@ const gltfLoader13 = new GLTFLoader();
 const gltfLoader14 = new GLTFLoader();
 const gltfLoader15 = new GLTFLoader();
 const gltfLoader16 = new GLTFLoader();
+
+function Progress(){
+  console.log('loading');
+  const progressInfo=document.getElementsByClassName('progressInfo')[0];
+  progressInfo.style.visibility = 'visible';
+}
+
 gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
   const root = gltf.scene;
   const anim = gltf.animations;
@@ -167,5 +174,8 @@ gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
     scene.add(root);
 
   })
-})
+
+  const progressInfo=document.getElementsByClassName('progressInfo')[0];
+  progressInfo.style.visibility = 'hidden';
+}, Progress())
 
