@@ -25,7 +25,7 @@ function Progress(){
   progressInfo.style.visibility = 'visible';
 }
 
-gltfLoader2.load('./orbit_for_fiber2_2.glb', (gltf) => {
+gltfLoader2.load('./orbit_for_fiber2_3ver2.glb', (gltf) => {
   const root = gltf.scene;
   const anim = gltf.animations;
   root.position.x = 10;
